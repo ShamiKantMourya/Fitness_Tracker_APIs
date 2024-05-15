@@ -1,0 +1,26 @@
+[
+  {
+    "goalName": "Lose Weight",
+    "description": "Achieve a healthy weight through diet and exercise.",
+    "targetDate": "2023-12-31",
+    "targetCaloriesValue": 1500,
+    "imageUrl": "https://img.freepik.com/free-vector/low-self-esteem-woman-looking-into-mirror_23-2148714425.jpg?t=st=1713868912~exp=1713872512~hmac=1c9a184e7b3bc8c48b6d636bc63a19993dbd3358ef1fdeeaced14ab1879e4cba&w=740",
+    "status": "In Progress"
+  },
+  {
+    "goalName": "Build Muscle",
+    "description": "Gain muscle mass through strength training and protein intake.",
+    "targetDate": "2023-12-31",
+    "targetCaloriesValue": 2500,
+    "imageUrl": "https://img.freepik.com/free-photo/powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-biceps-with-dumbbells-look-camera-with-confident-look-isolated-dark-background_613910-5235.jpg?t=st=1713868962~exp=1713872562~hmac=419da96e593dc0d588237538e925e030d0b2a2737f05b4c62925c78fc9731ea6&w=826",
+    "status": "Achieved"
+  },
+  {
+    "goalName": "Improve Cardiovascular Health",
+    "description": "Enhance heart health through aerobic exercises.",
+    "targetDate": "2023-12-31",
+    "targetCaloriesValue": 1800,
+    "imageUrl": "https://img.freepik.com/free-photo/view-anatomic-heart-model-educational-purpose-with-stethoscope_23-2149894525.jpg?t=st=1713869046~exp=1713872646~hmac=c02f3912936c4fd8fa4152578d3433427602386d35b61e6462326f8fbdc49033&w=826",
+  "status": "Abandoned"
+  }
+]

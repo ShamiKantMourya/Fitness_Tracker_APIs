@@ -1,0 +1,34 @@
+[
+  {
+    "foodName": "Chicken Breast",
+    "calories": 165,
+    "proteins": 31,
+    "carbohydrates": 0,
+    "fats": 3.6,
+    "imageUrl": "https://img.freepik.com/free-photo/grilled-chicken-fillet-fresh-vegetable-salad-tomatoes-red-onion-arugula-chicken-meat-salad-healthy-food_2829-6940.jpg?t=st=1713869172~exp=1713872772~hmac=7188b2c2f10aa40e8700bed0d573d91ecb1f7e6cd84ef6b6313621572a1cae57&w=740"
+  },
+  {
+    "foodName": "Salmon",
+    "calories": 206,
+    "proteins": 22,
+    "carbohydrates": 0,
+    "fats": 13,
+    "imageUrl": "https://img.freepik.com/free-photo/arrangement-veggies-salmon-fish-flat-lay_23-2148708661.jpg?t=st=1713869226~exp=1713872826~hmac=aaaf0012557dca1952818ae2adbf261ec941f7da3724d91dcf12e209848f9af0&w=740"
+  },
+  {
+    "foodName": "Broccoli",
+    "calories": 55,
+    "proteins": 3.7,
+    "carbohydrates": 11.2,
+    "fats": 0.6,
+    "imageUrl": "https://img.freepik.com/free-photo/front-view-vegetable-salad-with-fork-dark-surface-health-food-restaurant-color-cuisine-ripe-lunch-diet_179666-19642.jpg?t=st=1713869297~exp=1713872897~hmac=91e8e998e62d52525741aaabbc9db491baa5af8fce1ed20655deefc976eb7684&w=826"
+  },
+  {
+    "foodName": "Banana",
+    "calories": 105,
+    "proteins": 1.3,
+    "carbohydrates": 27,
+    "fats": 0.4,
+    "imageUrl": "https://img.freepik.com/free-photo/fresh-raw-bananas-arrangement_23-2150764266.jpg?t=st=1713699760~exp=1713703360~hmac=adce2ce557cbd2db8a1070ebfd1a555500164adba5b007c8bccba1ac2d9d6461&w=740"
+  }
+]

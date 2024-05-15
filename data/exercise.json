@@ -1,0 +1,27 @@
+[
+  {
+    "exerciseName": "Running",
+    "durationInMinutes": 30,
+    "imageUrl": "https://img.freepik.com/free-photo/side-view-people-running-together_23-2149596333.jpg?t=st=1713868468~exp=1713872068~hmac=1ac80250dc7f95fb19f1b9b7fef8e2de46d600a3ed562660a1a74cb598d5abf0&w=826"
+  },
+  {
+    "exerciseName": "Swimming",
+    "durationInMinutes": 45,
+    "imageUrl":"https://img.freepik.com/free-photo/young-caucasian-boy-enjoying-pool-underwater_53876-42730.jpg?t=st=1713868597~exp=1713872197~hmac=f24462eae26c80a164a38b77dd0e8df014ac5f9a3a9ee3694682002d0584d472&w=826"
+  },
+  {
+    "exerciseName": "Cycling",
+    "durationInMinutes": 60,
+    "imageUrl": "https://img.freepik.com/free-photo/professional-cyclist-woman_23-2149703281.jpg?t=st=1713868661~exp=1713872261~hmac=87664a55724d7dcfc6b363a17e5323d8566409c6af6eb946acf5311966b460b9&w=826"
+  },
+  {
+    "exerciseName": "Weightlifting",
+    "durationInMinutes": 45,
+    "imageUrl": "https://img.freepik.com/free-photo/focused-strong-man-cap-is-lifting-barbell-dark-photo-studio_613910-14870.jpg?t=st=1713868735~exp=1713872335~hmac=ff226f1c312fa7bb0dca5e4af915506c10ca261e0941df51675f81fe9df58f99&w=740"
+  },
+  {
+    "exerciseName": "Yoga",
+    "durationInMinutes": 60,
+    "imageUrl": "https://img.freepik.com/free-photo/portrait-person-practicing-yoga-outdoors-nature_23-2151046763.jpg?t=st=1713868813~exp=1713872413~hmac=ec422d4b5d1c9dbf70f36f071acc72213d09a8b0cbe60591494fdaae1244b6ca&w=826"
+  }
+]
