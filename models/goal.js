@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const goalSchema = new mongoose.Schema({
   goalName: {
@@ -6,7 +6,7 @@ const goalSchema = new mongoose.Schema({
     required: true,
   },
   imageUrl: {
-    type: String
+    type: String,
   },
   description: {
     type: String,
@@ -22,11 +22,11 @@ const goalSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['In Progress', 'Achieved', 'Abandoned'],
-    default: 'In Progress',
+    enum: ["In Progress", "Achieved", "Abandoned"],
+    default: "In Progress",
   },
 });
 
-const Goal = mongoose.model('Goal', goalSchema);
+const Goal = mongoose.model("Goal", goalSchema);
 
 module.exports = Goal;
