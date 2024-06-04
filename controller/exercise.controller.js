@@ -24,17 +24,10 @@ const seedDataBasetoExercise = async () => {
 exports.getAllExercise = async (req, res) => {
   try {
     const exercise = await Exercise.find({});
-    if (exercise) {
-      res.status(200).json({
-        success: true,
-        data: exercise,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No exercise found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: exercise,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
@@ -66,21 +59,14 @@ exports.deleteExerciseById = async (req, res) => {
   try {
     const exerciseId = req.params.exerciseId;
     const deletedExercise = await Exercise.findByIdAndDelete(exerciseId);
-    if (deletedExercise) {
-      res.status(200).json({
-        success: true,
-        data: deletedExercise,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No exercise found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: deletedExercise,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
       message: "Error while deleting exercise",
     });
   }
-}
+};

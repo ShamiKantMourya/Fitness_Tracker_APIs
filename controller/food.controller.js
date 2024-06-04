@@ -24,17 +24,10 @@ const seedDataBaseToFood = async () => {
 exports.getAllFood = async (req, res) => {
   try {
     const food = await Food.find({});
-    if (food) {
-      res.status(200).json({
-        success: true,
-        data: food,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No food found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: food,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
@@ -66,17 +59,10 @@ exports.deleteFoodById = async (req, res) => {
   try {
     const foodId = req.params.foodId;
     const deletedFood = await Food.findByIdAndDelete(foodId);
-    if (deletedFood) {
-      res.status(200).json({
-        success: true,
-        data: deletedFood,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No food found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: deletedFood,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,

@@ -24,17 +24,10 @@ const seedDataBaseToGoal = async () => {
 exports.getAllGoal = async (req, res) => {
   try {
     const goal = await Goal.find({});
-    if (goal) {
-      res.status(200).json({
-        success: true,
-        data: goal,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No goal found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: goal,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
@@ -66,17 +59,10 @@ exports.deleteGoalById = async (req, res) => {
   try {
     const goalId = req.params.goalId;
     const deletedGoal = await Goal.findByIdAndDelete(goalId);
-    if (deletedGoal) {
-      res.status(200).json({
-        success: true,
-        data: deletedGoal,
-      });
-    } else {
-      res.status(404).json({
-        success: false,
-        message: "No goal found",
-      });
-    }
+    res.status(200).json({
+      success: true,
+      data: deletedGoal,
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
